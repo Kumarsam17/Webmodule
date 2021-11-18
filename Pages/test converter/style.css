@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(25, 226, 216);
+}
+.con{
+    padding: 60px 60px;
+    background: rgba(27, 31, 30, 0.5);
+    box-shadow: 5px 5px 5px 5px black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+
+}
+h1{
+    position:absolute;
+    top: 10px;
+}
+input{
+    
+    font-size: 20px;
+}
+#cel{
+    position: absolute;
+    bottom: 50px;
+    left: 220px;
+    font-size: 30px;
+}
+#far{
+    position: absolute;
+    bottom: 50px;
+    left: 500px;
+    font-size: 30px;
+}
+@media(max-width:360px) and (min-height:640px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column; 
+    }
+
+}
+    
